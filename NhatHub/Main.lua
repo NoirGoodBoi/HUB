@@ -1,3 +1,5 @@
+-- link: https://raw.githubusercontent.com/NoirGoodBoi/HUB/refs/heads/main/NhatHub/Main.lua
+
 --[[
     .-------------------------------------------------------------------------------------------------.
     |  NHẬT░HUB░SUPREME░V920 (GOTHIC EDITION)                             |
@@ -961,7 +963,7 @@ end)
 
 -- === TOGGLE HIỆN NÚT FLY & SETTINGS (THÊM VÀO TAB SYSTEM) ===
 local flyUISec = pTab:addSection("Fly UI Settings")
-flyUISec:addToggle("Hiện nút Fly & Settings", false, function(t)
+flyUISec:addToggle("Hiện nút Fly & Settings", true, function(t)
     flyUIVisible = t
     local screenGui = player.PlayerGui:FindFirstChild("FlySystemGui")
     if screenGui then
